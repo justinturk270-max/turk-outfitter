@@ -1,0 +1,21 @@
+/* Design tokens: change these to re-skin the whole site. */
+:root {
+  --color-bg: #f6f2ea;
+  --color-surface: #ffffff;
+  --color-ink: #1f2421;
+  --color-muted: #5b625d;
+  --color-primary: #23402f;       /* forest green */
+  --color-primary-dark: #162a1f;
+  --color-accent: #c8843a;        /* warm amber */
+  --color-accent-dark: #a86a26;
+  --color-line: #ddd5c6;
+
+  --font-display: "Oswald", "Arial Narrow", Impact, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --radius: 10px;
+  --shadow: 0 6px 24px rgba(22, 42, 31, 0.12);
+  --maxw: 1120px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --space: clamp(56px, 9vw, 104px);
+}

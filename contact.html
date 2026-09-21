@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Turk Outfitters</title>
+  <meta name="description" content="Request a booking or ask a question about a guided trip with Turk Outfitters.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23c8843a' d='M2 28 13 8l5 8 3-4 9 16z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="#c8843a" d="M2 28 13 8l5 8 3-4 9 16z"/></svg>Turk Outfitters</a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    <ul id="nav-menu">
+      <li><a class="link" href="index.html">Home</a></li>
+      <li><a class="link" href="trips.html">Trips</a></li>
+      <li><a class="link" href="about.html">About</a></li>
+      <li><a class="btn btn--accent" href="contact.html" aria-current="page">Book a Trip</a></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container"><p class="eyebrow" style="color:var(--color-accent)">Contact</p><h1>Plan your trip</h1><p>Tell us what you have in mind. We reply within one business day.</p></div>
+  </section>
+
+  <section class="section">
+    <div class="container split" style="align-items:start">
+      <form class="form" id="inquiry-form" novalidate>
+        <div class="row">
+          <div><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
+          <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        </div>
+        <div class="row">
+          <div><label for="trip">Trip</label>
+            <select id="trip" name="trip"><option>Elk Hunt</option><option>Upland Bird Weekend</option><option>Mule Deer Hunt</option><option>Fly-Fishing Float</option><option>Lodge &amp; Float</option><option>Pack Trip</option><option>Not sure yet</option></select></div>
+          <div><label for="party">Party size</label><input id="party" name="party" type="number" min="1" max="12" value="2"></div>
+        </div>
+        <div><label for="dates">Preferred dates</label><input id="dates" name="dates" placeholder="e.g. mid-September"></div>
+        <div><label for="message">Message</label><textarea id="message" name="message"></textarea></div>
+        <button class="btn btn--accent" type="submit">Send inquiry</button>
+        <p class="form-msg" role="status">Thanks! Your inquiry was received (demo form, nothing was sent).</p>
+      </form>
+      <div>
+        <p class="eyebrow">Get in touch</p>
+        <h2>Talk to a real person</h2>
+        <ul class="contact-list">
+          <li><b>Phone</b>(406) 555-0142</li>
+          <li><b>Email</b>hello@turkoutfitters.example</li>
+          <li><b>Base camp</b>Bozeman, Montana</li>
+          <li><b>Office hours</b>Mon&ndash;Sat, 8am&ndash;6pm MT</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h3>Turk Outfitters</h3><p>Guided hunting, fishing, and pack trips in the Montana Rockies since 1998. (Mock company for template purposes.)</p></div>
+      <div><h3>Explore</h3><ul><li><a href="trips.html">Trips</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h3>Contact</h3><ul><li>(406) 555-0142</li><li>hello@turkoutfitters.example</li><li>Bozeman, MT</li></ul></div>
+    </div>
+    <div class="copyright">&copy; <span data-year>2026</span> Turk Outfitters. All rights reserved.</div>
+  </div>
+</footer>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
